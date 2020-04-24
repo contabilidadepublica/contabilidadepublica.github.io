@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>excluir on Contabilidade Pública</title>
+    <title>excluir on </title>
     <link>/tags/excluir/</link>
-    <description>Recent content in excluir on Contabilidade Pública</description>
+    <description>Recent content in excluir on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt_br</language>
     <copyright>©2019 Everton da Rosa.</copyright>
     <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/excluir/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/excluir/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,7 +19,6 @@
       
       <guid>/artigos/hello-world/</guid>
       <description>Hello world para Contabilidade Pública, por Everton da Rosa.</description>
-      
     </item>
     
   </channel>
