@@ -1,0 +1,68 @@
+baseURL = 'https://contabilidadepublica.github.io'
+locale = 'pt-br'
+title = 'Contabilidade Pública'
+theme = 'paper'
+defaultContentLanguage = 'pt-br'
+[params]
+    subtitle = 'Artigos, planilhas, tutoriais e informações sobre Contabilidade Pública Brasileira.'
+    [params.contact]
+        email = 'everton3x@gmail.com'
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Planilhas'
+    pageRef = '/planilhas/'
+    weight = 10
+  # [[menus.main]]
+  #   name = 'Products'
+  #   pageRef = '/products'
+  #   weight = 20
+  # [[menus.main]]
+  #   name = 'Services'
+  #   pageRef = '/services'
+  #   weight = 30
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+# [permalinks]
+#   [permalinks.page]
+#     posts = '/articles/:year/:month/:slug/'
+#     tutorials = '/training/:slug/'
+#   [permalinks.section]
+#     posts = '/articles/'
+#     tutorials = '/training/'
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'keywords'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 100
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'date'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 10
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'tags'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 80

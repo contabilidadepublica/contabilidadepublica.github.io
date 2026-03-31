@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planilhas on Contabilidade Pública</title>
+    <link>https://contabilidadepublica.github.io/planilhas/</link>
+    <description>Recent content in Planilhas on Contabilidade Pública</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 31 Mar 2026 11:22:07 -0300</lastBuildDate>
+    <atom:link href="https://contabilidadepublica.github.io/planilhas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planilha para cálculo da RCL e da Despesa Total com Pessoal</title>
+      <link>https://contabilidadepublica.github.io/planilhas/rcl-dtp/</link>
+      <pubDate>Tue, 31 Mar 2026 11:22:07 -0300</pubDate>
+      <guid>https://contabilidadepublica.github.io/planilhas/rcl-dtp/</guid>
+      <description>Planilha que auxilia na apuração mensal da Receita Corrente Líquida (RCL), da Despesa Total com Pessoal (DTP) e do Índice de Gasto Total com Pessoal (GTP) da Lei de Responsabilidade Fiscal (LRF).</description>
+    </item>
+  </channel>
+</rss>
