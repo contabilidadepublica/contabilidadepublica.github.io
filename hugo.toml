@@ -2,7 +2,7 @@ baseURL = 'https://contabilidadepublica.github.io'
 locale = 'pt-br'
 title = 'Contabilidade Pública'
 theme = 'paper'
-# defaultContentLanguage = 'pt-br'
+defaultContentLanguage = 'pt-br'
 publishDir = "docs"
 [params]
     subtitle = 'Artigos, planilhas, tutoriais e informações sobre Contabilidade Pública Brasileira.'
