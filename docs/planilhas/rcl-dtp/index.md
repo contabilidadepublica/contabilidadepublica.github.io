@@ -2,6 +2,8 @@
 title: Planilha para cálculo da RCL e da Despesa Total com Pessoal
 ---
 
+{% include navigation.html %}
+
 Planilha que auxilia na apuração mensal da Receita Corrente Líquida (RCL), da Despesa Total com Pessoal (DTP) e do Índice de Gasto Total com Pessoal (GTP) da Lei de Responsabilidade Fiscal (LRF).
 
 [Baixe a última versão.](#changelog)

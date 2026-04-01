@@ -1,6 +1,7 @@
 ---
 title: 'Hello World'
 ---
+{% include navigation.html %}
 
 # My first post
 
