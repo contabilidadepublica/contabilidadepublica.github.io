@@ -1,6 +1,6 @@
 +++
 date = '2026-03-31T11:22:07-03:00'
-draft = true
+draft = false
 title = 'Planilha para cálculo da RCL e da Despesa Total com Pessoal'
 description = 'Planilha que auxilia na apuração mensal da Receita Corrente Líquida (RCL), da Despesa Total com Pessoal (DTP) e do Índice de Gasto Total com Pessoal (GTP) da Lei de Responsabilidade Fiscal (LRF).'
 summary = 'Planilha que auxilia na apuração mensal da Receita Corrente Líquida (RCL), da Despesa Total com Pessoal (DTP) e do Índice de Gasto Total com Pessoal (GTP) da Lei de Responsabilidade Fiscal (LRF).'
