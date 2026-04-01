@@ -5,15 +5,11 @@ layout: base
 
 <h1 class="ui header">Categorias</h1>
 
-<div class="ui big list">
+<div>
     {% for category in site.categories %}
-        {% for name in category %}
-            <div class="item">
-            <div class="content">
-                <a class="header" href="">{{ name }}</a>
-                <p class="description">{{ name }}</p>
-            </div>
-        </div>
+        <h3>{{ category[0] }}</h3>
+        {% for post in category[1] %}
+            <p>{{ post.title }}</p>
         {% endfor %}
     {% endfor %}
 </div>
