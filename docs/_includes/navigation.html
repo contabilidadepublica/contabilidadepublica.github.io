@@ -1,16 +1,15 @@
-<p>{{ page.dir }}</p>
 <nav class="ui secondary pointing menu">
   <a class="{% if page.url == '/' %}active {% endif %}item" href="/">
     Início
   </a>
-  <a class="{% if page.name == 'planilhas' %}active {% endif %}item" href="/planilhas">
+  <a class="{% if page.dir == '/planilhas/' %}active {% endif %}item" href="/planilhas">
     Planilhas
   </a>
-  <a class="{% if page.url == '/artigos' %}active {% endif %}item" href="/artigos">
+  <a class="{% if page.dir == '/artigos/' %}active {% endif %}item" href="/artigos">
     Artigos
   </a>
   <div class="right menu">
-    <a class="ui {% if page.url == '/contato' %}active {% endif %}item" href="/contato">
+    <a class="ui {% if page.dir == '/contato/' %}active {% endif %}item" href="/contato">
       Contado
     </a>
   </div>
