@@ -5,7 +5,11 @@ collections:
 
 defaults:
   - scope:
-      path: "_planilhas"
-      type: "planilha"
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "planilhas"
     values:
       layout: "planilha"
