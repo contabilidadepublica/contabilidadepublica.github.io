@@ -1,7 +1,8 @@
 ---
-title: 'Hello World'
+title: Hello World
+layout: post
 ---
-{% include navigation.html %}
+
 
 # My first post
 
