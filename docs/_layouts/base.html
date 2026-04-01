@@ -7,9 +7,15 @@
 </head>
 <body>
 
-{% include navigation.html %}
+<main class="ui container">
 
-{{ content }}
+  {% include navigation.html %}
+  
+  <div class="ui segment">
+    {{ content }}
+  </div>
+
+</main>
 
 <script src="/assets/js/jquery-4.0.0.min.js"></script>
 <link rel="stylesheet" href="/assets/css/fomantic-ui/semantic.min.css">

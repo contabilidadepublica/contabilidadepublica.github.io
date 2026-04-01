@@ -1,5 +1,16 @@
-<nav>
-    <a href="/">Início</a>
-    &nbsp; | &nbsp;
-    <a href="/planilhas/">Planilhas</a>
+<nav class="ui secondary pointing menu">
+  <a class="{% if page.url == '/' %}active {% endif %}item" href="/">
+    Início
+  </a>
+  <a class="{% if page.url == '/planilhas' %}active {% endif %}item" href="/planilhas">
+    Planilhas
+  </a>
+  <a class="{% if page.url == '/artigos' %}active {% endif %}item" href="/artigos">
+    Artigos
+  </a>
+  <div class="right menu">
+    <a class="ui {% if page.url == '/contato' %}active {% endif %}item" href="/contato">
+      Contado
+    </a>
+  </div>
 </nav>
