@@ -6,7 +6,7 @@ layout: base
 <p>{{ page.description }}</p>
 
 
-[Baixe a última versão.](#changelog)
+<a href="#changelog">Baixe a última versão.</a>
 
 # Changelog
 
