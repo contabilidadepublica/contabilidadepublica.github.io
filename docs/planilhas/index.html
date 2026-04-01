@@ -1,0 +1,14 @@
+---
+title: Planilhas e Utilitários
+layout: base
+---
+
+# Planilhas e Utilitários
+
+<ul>
+    {% for plan in site.planilhas %}
+        <li>
+            <a href="{{ plan.url }}">{{ plan.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
