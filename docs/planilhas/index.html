@@ -5,13 +5,13 @@ layout: base
 
 <h1>Planilhas e Utilitários</h1>
 
-<ul class="ui list">
+<div class="ui list">
     {% for plan in site.planilhas %}
-        <li class="item">
+        <div class="item">
             <div class="content">
                 <a class="header" href="{{ plan.url }}">{{ plan.title }}</a>
                 <p class="description">{{ plan.description }}</p>
             </div>
-        </li>
+        </div>
     {% endfor %}
-</ul>
+    </div>
