@@ -2,3 +2,10 @@ timezone: America/Sao_Paulo
 collections:
   planilhas:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "planilha"
+    values:
+      layout: "planilha"
