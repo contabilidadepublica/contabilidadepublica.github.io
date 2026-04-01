@@ -1,6 +1,6 @@
 ---
 title: Hello World
-layout: post
+layout: base
 ---
 
 <h1 class="ui red header">My first post</h1>
