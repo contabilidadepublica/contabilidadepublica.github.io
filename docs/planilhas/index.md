@@ -1,8 +1,7 @@
 ---
 title: Planilhas e Utilitários
+layout: base
 ---
-
-{% include navigation.html %}
 
 # Planilhas e Utilitários
 
