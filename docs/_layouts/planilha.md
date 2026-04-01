@@ -8,6 +8,7 @@ layout: base
 
 <a href="#changelog">Baixe a última versão.</a>
 
-# Changelog
+
+<h1>Changelog</h1>
 
 {{ content }}
