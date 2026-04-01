@@ -3,7 +3,7 @@ locale = 'pt-br'
 title = 'Contabilidade Pública'
 theme = 'paper'
 defaultContentLanguage = 'pt-br'
-publishDir = "docs"
+# publishDir = "docs"
 [params]
     subtitle = 'Artigos, planilhas, tutoriais e informações sobre Contabilidade Pública Brasileira.'
     [params.contact]
@@ -67,3 +67,6 @@ publishDir = "docs"
     toLower = false
     type = 'basic'
     weight = 80
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
