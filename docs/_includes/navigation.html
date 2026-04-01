@@ -1,9 +1,9 @@
-<p>{{ page.url }}</p>
+<p>{{ page.dir }}</p>
 <nav class="ui secondary pointing menu">
   <a class="{% if page.url == '/' %}active {% endif %}item" href="/">
     Início
   </a>
-  <a class="{% if page.url == '/planilhas' %}active {% endif %}item" href="/planilhas">
+  <a class="{% if page.name == 'planilhas' %}active {% endif %}item" href="/planilhas">
     Planilhas
   </a>
   <a class="{% if page.url == '/artigos' %}active {% endif %}item" href="/artigos">
