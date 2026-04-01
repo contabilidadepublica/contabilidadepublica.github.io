@@ -9,6 +9,7 @@ layout: base
     {% for plan in site.planilhas %}
         <li>
             <a href="{{ plan.url }}">{{ plan.title }}</a>
+            <p>{{ plan.excerpt }}</p>
         </li>
     {% endfor %}
 </ul>
